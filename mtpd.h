@@ -17,6 +17,11 @@
 #ifndef __MTPD_H__
 #define __MTPD_H__
 
+//override defs.
+#define PX_PROTO_OLAC 2
+#define PX_PROTO_OPNS 3
+
+
 /* The socket to the server. */
 extern int the_socket;
 
